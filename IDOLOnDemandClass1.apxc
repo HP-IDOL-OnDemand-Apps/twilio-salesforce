@@ -43,7 +43,7 @@ public class IDOLOnDemandClass1 {
     public static String detectLanguage(String messageBody){
         
         String uri1 = 'https://api.idolondemand.com/1/api/sync/identifylanguage/v1?';
-        String apikey1 = '4571b947-b060-4519-90a5-c5a1c69b1560';
+        String apikey1 = 'your apikey';
         String additionalMetadata1 = 'true';
         String text1 = EncodingUtil.urlEncode(messageBody, 'UTF-8');
         uri1 += 'text='+text1;
